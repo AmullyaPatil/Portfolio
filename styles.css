@@ -97,6 +97,7 @@ nav {
 
 .link a:hover {
   color: black;
+  font-size: 1.1rem;
 }
 
 .header_container {
@@ -168,14 +169,16 @@ nav {
 
 .services_card {
   padding: 1rem;
+  transition: transform 0.3s ease;
 }
 
 .services_card:hover{
-  padding: 1.5rem;
-  border: 2px solid black;
+  padding: 1.2rem;
+  border: 1.5px solid black;
   background-color: rgb(206, 244, 232);
-  transition: 0.2s;
   border-radius: 10%;
+  transition: 0.3s;
+  box-shadow: 0 0 10px #000000;
 }
 
 .services_card img {
@@ -249,7 +252,7 @@ nav {
 
 .blogs_card:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 20px #b9e6ee;
+  box-shadow: 0 0 20px #000000;
 }
 
 .blogs_content {
@@ -277,7 +280,7 @@ nav {
 }
 
 .blogs_card img{
-  height: 20rem;
+  height: 15rem;
   width: 25rem;
 }
 
