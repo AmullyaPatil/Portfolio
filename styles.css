@@ -15,7 +15,7 @@
 .section_container {
   max-width: var(--max-width);
   margin: auto;
-  padding: 5rem 1rem;
+  padding:5rem 3rem;
 }
 
 .section_header {
@@ -34,6 +34,12 @@
   text-align: center;
 }
 
+.thick-line {
+  border: none;
+  height: 3px;
+  background-color: #56787d;
+  margin: 10px 0;
+}
 
 img {
   display: flex;
@@ -54,7 +60,8 @@ body {
 }
 
 .header {
-  background-image: url("assets/header.png");
+  /*  background-image: url("assets/header.png"); */
+  background-color:rgb(145, 185, 196);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -77,7 +84,8 @@ nav {
   font-size: 2rem;
   font-weight: 700;
   font-family: var(--header-font);
-  color:var(--white) ;
+  color:white ;
+
 }
 
 .nav_links {
