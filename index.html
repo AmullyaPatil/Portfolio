@@ -7,7 +7,7 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css">
     <script src="https://unpkg.com/scrollreveal"></script>
     <title>Portfolio</title>
   </head>
@@ -145,6 +145,30 @@
         </div>
       </div>
     </section>
+  <hr class="thick-line"/>
+
+  <section id="contact_us">
+    <h2>Contact Me</h2>
+    <form action="/submit" method="POST">
+      <div>
+          <label for="username">Your Name:</label><br>
+          <input type="text" id="username" name="name" placeholder="Enter your name" required><br><br>
+      </div>
+      <div>
+          <label for="email">Your Email:</label><br>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+      </div>
+      <div>
+          <label for="message">Your Message:</label><br>
+          <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea><br><br>
+      </div>
+      <div>
+          <input type="submit" value="Send Message">
+      </div>
+  </form>
+  
+  </section>
+
 
     <footer class="footer" id="contact">
       <div class="section_container footer_container">
@@ -152,7 +176,6 @@
           <h2>Amullya Patil</h2>
           <p>patilamullya@gmail.com</p>
         </div>
-        
         <div class="footer_col">
           <div class="footer_socials">
             <a href="https://www.linkedin.com/in/Amullya-Patil/" target="_blank" ><i class="ri-linkedin-fill"></i></a>
@@ -172,7 +195,6 @@
         Copyright © 2024 Amullya Patil. All rights reserved.
       </div>
     </footer>
-
     <script src="main.js"></script>
   </body>
 </html>
